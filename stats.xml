@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>69</sentences><tokens>801</tokens><words>801</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>69</sentences><tokens>801</tokens><words>801</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="255" /><!-- ।, रे, अनि, ", ,, गर्नु, त्यो, हुनु, भन्नु, कर्तव्य, लाग्नु, त, आउनु, मान्छे, घ्यू -->
+  <forms unique="345" /><!-- ।, रे, अनि, ", ,, त्यो, त, घ्यू, भनेर, छ, कर्तव्य, मान्छे, सधैं, एउटा, गर्दा -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="15">
+    <tag name="ADJ">25</tag><!-- गहन, महान्, असफल, असल, कानुनी, गजब, गैरकानुनी, जीवनवादी, ठूलो, द्यूसोभरी -->
+    <tag name="ADP">5</tag><!-- बारे, लाइ, लाई, ले, सम्म -->
+    <tag name="ADV">63</tag><!-- सधैं, त्यसपछि, अब, त्यहाँ, त्यसरी, अर्थात, एकदम, कति, त्यस्तै, फेरि -->
+    <tag name="AUX">10</tag><!-- हुनु, छ -->
+    <tag name="CCONJ">42</tag><!-- अनि, र, वा -->
+    <tag name="DET">33</tag><!-- त्यो, एउटा, त्यही, कति, यो, आआफ्नो, यत्रो, यस -->
+    <tag name="INTJ">3</tag><!-- ल, ए -->
+    <tag name="NOUN">161</tag><!-- कर्तव्य, मान्छे, घ्यू, आगो, भुत, खोटो, ठाउँ, कथन, कुरा, गोठ -->
+    <tag name="NUM">5</tag><!-- एक, एउटा -->
+    <tag name="PART">75</tag><!-- रे, त, चाहिँ, पनि, नै, केरे, कि, र, ल, है -->
+    <tag name="PRON">30</tag><!-- ऊ, त्यो, के, म, यस, आफु, आफ्नो, उ, एउटा, कसै -->
+    <tag name="PROPN">13</tag><!-- खड्केरिरहा, काली, गन्डकी, इलियट, जर्ज, धारा, पानी, विवेकान्नंद -->
+    <tag name="PUNCT">144</tag><!-- ।, ", ,, -, ?, !, ', –, ..., ‘ -->
+    <tag name="VERB">187</tag><!-- गर्नु, भन्नु, लाग्नु, हुनु, आउनु, भाग्नु, कराउनु, घस्नु, आर्जनु, जानु -->
+    <tag name="X">5</tag><!-- -, कर्मण्येवाधिकारस्ते -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="39">
+    <feat name="Aspect" value="Imp" upos="AUX,VERB">70</feat><!-- छ, गर्नुपर्छ, घस्दे, हो, सुत्न, हाम्फाल, हुन्छ, आउँछ, गर्दा, गर्न -->
+    <feat name="Aspect" value="Perf" upos="AUX,VERB">97</feat><!-- भनेर, भागेछ, आर्जन, आएर, पारेर, गरिएको, फर्केर, भनेछ, लागेर, आएछ -->
+    <feat name="Aspect" value="Prog" upos="VERB">18</feat><!-- कराउँदै, गर्दा, गर्दै, जाँदा, दुखि, बसी, भन्दै, भन्ने, रहेको, रुदै -->
+    <feat name="Case" value="Abl" upos="NOUN">4</feat><!-- अधिकारभन्दा, क्रियाकलापबाट, धनबाट, भोलिपल्ट -->
+    <feat name="Case" value="Acc" upos="NOUN">40</feat><!-- घ्यू, कर्तव्य, खोटो, आगो, थकाई, महीसही, अनुभव, कर्म, काम, कुरा -->
+    <feat name="Case" value="Dat" upos="NOUN,PRON">7</feat><!-- कर्तव्यलाई, मानिसलाई, कर्तव्यको, कसैलाई, पूजा -->
+    <feat name="Case" value="Erg" upos="NOUN">1</feat><!-- भुतहरूले -->
+    <feat name="Case" value="Gen" upos="NOUN,PRON,PROPN">27</feat><!-- पानीको, कर्तव्यको, खड्केरिरहाको, आगनाको, इलियटका, उपनिषद्हरूको, उपासनाको, उसको, कर्तव्यका, कर्तव्यप्रतीको -->
+    <feat name="Case" value="Ins" upos="NOUN">10</feat><!-- आगोले, तरिकाले, ऊर्जाले, कथनअनुसार, चिन्तकले, दूध, धनले, विचारले -->
+    <feat name="Case" value="Loc" upos="NOUN,PROPN">21</feat><!-- गन्डकीमा, गोठमा, जंगलमा, ठाउँमा, आगोमा, कथनभित्र, कथनमा, क्रममा, खड्केरिरहामा, खोटोमा -->
+    <feat name="Case" value="Nom" upos="NOUN,PROPN">64</feat><!-- मान्छे, भुत, धारा, कर्तव्य, गोठालो, दिन, काली, कुरा, ठाउँ, भुत्ला -->
+    <feat name="Evident" value="Nfh" upos="VERB">9</feat><!-- भागेछ, कराएछ, भनेछ, सेलाएछ -->
+    <feat name="Foreign" value="Yes" upos="X">2</feat><!-- कर्तव्यम्, कर्मण्येवाधिकारस्ते -->
+    <feat name="Gender" value="Fem" upos="NOUN">1</feat><!-- गाईको -->
+    <feat name="Gender" value="Masc" upos="PROPN">3</feat><!-- इलियटका, जर्ज, विवेकान्नंद -->
+    <feat name="Gender" value="Neut" upos="NOUN,PROPN">166</feat><!-- घ्यू, कर्तव्य, मान्छे, भुत, खोटो, थकाई, धारा, आगो, कर्तव्यको, कुरा -->
+    <feat name="Mood" value="Imp" upos="VERB">11</feat><!-- घस्दे, हाम्फाल, भनेर, ला, सुत, हेर्नुहोस् -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">174</feat><!-- भनेर, छ, गर्दा, भागेछ, आर्जन, आएर, कराउँदै, पारेर, रहेछ, हो -->
+    <feat name="Mood" value="Nec" upos="VERB">2</feat><!-- गर्नुपर्छ, पर्ने -->
+    <feat name="Number" value="Plur" upos="AUX,NOUN,PRON,VERB">11</feat><!-- उपनिषद्हरूको, गरेका, गर्छन्, भएका, भन्थे, भुतहरू, भुतहरूले, विचारले, हाम्रो, हुन् -->
+    <feat name="Number" value="Sing" upos="AUX,DET,NOUN,PRON,PROPN,VERB">392</feat><!-- त्यो, घ्यू, भनेर, कर्तव्य, छ, मान्छे, गर्दा, भागेछ, आर्जन, भुत -->
+    <feat name="NumType" value="Card" upos="NUM">5</feat><!-- एक, एउटा -->
+    <feat name="Person" value="1" upos="PRON">3</feat><!-- मलाई, हाम्रो -->
+    <feat name="Person" value="2" upos="PRON,VERB">9</feat><!-- हाम्फाल, उ, घस्दे, तँ, ला, सुत, हेर्नुहोस् -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">187</feat><!-- भनेर, छ, गर्दा, भागेछ, आर्जन, आएर, कराउँदै, गर्नुपर्छ, पारेर, रहेछ -->
+    <feat name="Polarity" value="Neg" upos="VERB">5</feat><!-- लाग्दैन, थिएन, हुदैन, होइन -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">43</feat><!-- त्यो, एउटा, त्यही, यस, यो, त्यस, त्यसलाई, यत्रो, यसबाट, यस्ता -->
+    <feat name="PronType" value="Int" upos="DET,PRON">4</feat><!-- कति, के -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">15</feat><!-- उ, मलाई, आआफ्नो, आफु, आफ्ना, उलाइ, उले, उसको, कसैलाई, तँ -->
+    <feat name="PronType" value="Rel" upos="PRON">1</feat><!-- जुन -->
+    <feat name="Reflex" value="Yes" upos="PRON">1</feat><!-- आफ्ना -->
+    <feat name="Tense" value="Fut" upos="VERB">1</feat><!-- होला -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">102</feat><!-- भनेर, भागेछ, आर्जन, आएर, पारेर, फर्केर, भनेछ, आएछ, कराएछ, गरेका -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">84</feat><!-- छ, कराउँदै, गर्दा, गर्नुपर्छ, घस्दे, हो, रहेछ, सुत्न, हाम्फाल, हुन्छ -->
+    <feat name="VerbForm" value="Conv" upos="VERB">51</feat><!-- भनेर, गर्दा, आएर, कराउँदै, पारेर, फर्केर, लागेर, लिएर, खर्चेर, गएर -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">92</feat><!-- छ, भागेछ, गर्नुपर्छ, घस्दे, रहेछ, हो, भनेछ, हाम्फाल, हुन्छ, आउँछ -->
+    <feat name="VerbForm" value="Inf" upos="VERB">7</feat><!-- सुत्न, गर्न, चराउन, जाने -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">45</feat><!-- आर्जन, गरिएको, गर्ने, भन्ने, भनिएको, आउने, आएको, आएछ, उदघाटित, कुर्ने -->
+    <feat name="Voice" value="Pass" upos="VERB">5</feat><!-- गरिएको, भइन्छ, भनिएको -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="31">
+    <dep name="acl">20</dep>
+    <dep name="acl:relcl">1</dep>
+    <dep name="advcl">56</dep>
+    <dep name="advmod">59</dep>
+    <dep name="amod">20</dep>
+    <dep name="appos">9</dep>
+    <dep name="aux">7</dep>
+    <dep name="case">4</dep>
+    <dep name="cc">43</dep>
+    <dep name="ccomp">18</dep>
+    <dep name="compound">9</dep>
+    <dep name="compound:redup">2</dep>
+    <dep name="conj">7</dep>
+    <dep name="cop">2</dep>
+    <dep name="dep">3</dep>
+    <dep name="det">38</dep>
+    <dep name="discourse">81</dep>
+    <dep name="dislocated">3</dep>
+    <dep name="flat:name">3</dep>
+    <dep name="iobj">12</dep>
+    <dep name="nmod">5</dep>
+    <dep name="nmod:poss">23</dep>
+    <dep name="nsubj">42</dep>
+    <dep name="nummod">5</dep>
+    <dep name="obj">43</dep>
+    <dep name="obl">39</dep>
+    <dep name="parataxis">12</dep>
+    <dep name="punct">144</dep>
+    <dep name="reparandum">3</dep>
+    <dep name="root">69</dep>
+    <dep name="xcomp">19</dep>
+  </deps>
+</treebank>
