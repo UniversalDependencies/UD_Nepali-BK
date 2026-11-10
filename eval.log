@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Nepali-BK:
-commit 1283f3e236366aeb0b9ed599f41fb1473736a913
+commit 30f3180a77f2559c84aae922f79129ae19987a85
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed May 6 09:41:14 2026 +0200
+Date:   Wed May 6 13:21:11 2026 +0200
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ne_bk'
 Language code (from CoNLL-U file name) = 'ne'
